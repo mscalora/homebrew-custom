@@ -2,7 +2,7 @@ require 'formula'
 
 class Onsubnet < Formula
   homepage 'https://github.com/mscalora/onsubnet'
-  head 'https://github.com/mscalora/onsubnet.git', :tag => '1.0'
+  url 'https://github.com/mscalora/onsubnet.git', :tag => '1.0'
   version '1.0'
   
   def install
